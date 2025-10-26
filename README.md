@@ -43,7 +43,7 @@ scholarship-management/
 │── style.css # Styling file
 │── script.js # Navigation and logic
 
-Future Enhancements
+## Future Enhancements
 
 Integrate Node.js and Express.js for backend functionality
 
