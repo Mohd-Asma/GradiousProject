@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="dashboard-container">
+  <h1>Student Dashboard</h1>
+  <p>Welcome! Manage your applications below.</p>
+
+  <h2>Available Scholarships</h2>
+  <table id="available-scholarships">
+    <thead>
+      <tr>
+        <th>Scholarship Name</th>
+        <th>Amount</th>
+        <th>Deadline</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Apply for Scholarship</h2>
+  <form id="application-form" style="display:none;">
+    <input type="text" id="applicant-name" placeholder="Your Name" required>
+    <input type="text" id="student-id" placeholder="Student ID" required>
+    <textarea id="reason" placeholder="Why you are applying?" required></textarea>
+    <button type="submit">Submit Application</button>
+    <button type="button" id="cancel-application">Cancel</button>
+  </form>
+
+  <h2>My Applications</h2>
+  <table id="my-applications">
+    <thead>
+      <tr>
+        <th>Scholarship Name</th>
+        <th>Applicant Name</th>
+        <th>Student ID</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>Last Updated</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <button onclick="location.href='index.html'" style="margin-top: 30px;">← Back to Role Selection</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

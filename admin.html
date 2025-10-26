@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="dashboard-container">
+    <h1>Admin Dashboard 👋</h1>
+
+    <h2>Add New Scholarship</h2>
+    <form id="add-scholarship-form">
+        <input type="text" id="scholarship-name" placeholder="Scholarship Name" required>
+        <input type="text" id="scholarship-amount" placeholder="Amount" required>
+        <input type="date" id="scholarship-deadline" required>
+        <button type="submit">Add Scholarship</button>
+    </form>
+
+    <h2>Manage Scholarships</h2>
+    <table id="admin-scholarships">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Deadline</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <button onclick="location.href='index.html'" style="margin-top: 30px;">← Back to Role Selection</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
