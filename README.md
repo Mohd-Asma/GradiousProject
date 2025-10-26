@@ -42,3 +42,15 @@ scholarship-management/
 │── admin.html # Admin Dashboard
 │── style.css # Styling file
 │── script.js # Navigation and logic
+
+Future Enhancements
+
+Integrate Node.js and Express.js for backend functionality
+
+Use MySQL database for storing scholarships and user data
+
+Add authentication for Admin and User login
+
+Implement a React.js frontend with API integration
+
+Add filtering, search, and category-based listing for scholarships
